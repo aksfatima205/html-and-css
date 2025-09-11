@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+<body>
+    <!-- STUDENT NAME : AKS FATIMA
+     CLASS : 9B
+     ID : 31585
+     BAHRIA COLLEGE KARSAZ-->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQbJfXbFidbF9d1_yb917zo0MN4upmeDlUNg&s">
+    <h2>STUDENT REGISTRATION FORM</h2>
+    <form>
+        <p>FIRST NAME:
+            <input type="text" name="FirstName" maxlength="30" placeholder="Enter the First Name">
+            (max30 characters a-z and A-Z)
+        </p>
+        <p>LAST NAME:
+            <input type="text" name="LastName" maxlength="30" placeholder="Enter the Last Name">
+             (max30 characters a-z and A-Z)
+        </p>
+        <p>DATE OF BIRTH:
+            <input type="date" name="DOB">
+        </p>
+        <p> EMAIL ID:
+            <input type="email" name="EmailID" placeholder="Enter the Email Address">
+        </p>
+        <p>MOBILE NUMBER:
+            <input type="text" name="MobileNumber" maxlength="10" placeholder="Enter the Mobile Number">
+            (10 Digits Numbers)
+        </p>
+        <p>GENDER:
+            Male <input type="radio" name="Gender" value="Male">
+            Female <input type="radio" name="Gender" value="Female">
+        </p>
+        <p>
+            ADDRESS:</br>
+            <textarea rows="4" cols="40"></textarea>
+        </p>
+        <p>CITY:
+            <input type="text" name="City" maxlength="30" placeholder="Enter the City Name">
+            (max30 characters a-z and A-Z)
+        </p>
+        <p>PIN CODE:
+            <input type="text" name="PinCode" maxlength="6" placeholder="Enter the Pin Code">
+            (6 digits)
+        </p>
+        <p>STATE:
+            <input type="text" name="State" maxlength="30" placeholder="Enter the State">
+            (max 30 characters)
+        </p>
+        <p>COUNTRY:
+            <input type="text" name="Country" placeholder="Enter the Country Name">
+        </p>
+        <p>HOBBIES:</br>
+            Drawing <input type="checkbox" name="Hobby" value="Drawing">
+            Singing <input type="checkbox" name="Hobby" value="Singing">
+            Dancing <input type="checkbox" name="Hobby" value="Dancing">
+            Sketching <input type="checkbox" name="Hobby" value="Sketching">
+        </br>Others <input type="text" name="HobbyOthers">
+        </p>
+        <p>QUALIFICATION:</p>
+        <table>
+            <tr>
+                <th>Sl.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <p>(Board: 10 char max Percentage:up to 2 decimal places)</p>
+        <p>
+            COURSES APPLIED FOR:
+            <select name="Course">
+                <option>Select any course</option>
+                <option>BCA</option>
+                <option>B.Sc</option>
+                <option>B.Com</option>
+            </select>
+        </p>
+        <p>Upload your pic (only.png,.jpg,.jpeg):
+            <input type="file" name="pic" accept=".png,.jpg,.jpeg">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html>
